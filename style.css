@@ -1,0 +1,99 @@
+body {
+    background-image: linear-gradient(180deg, #008b8b 32%, #005353 71%);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: Verdana, Arial, sans-serif;
+    color: white;
+}
+
+h1 {
+    text-align: center;
+    font-size: 48px;
+}
+
+hr {
+    border: 2px solid lightcyan;
+}
+
+p {
+    text-align: justify;
+}
+
+a {
+    color: lightyellow;
+}
+
+/* Jump links at the top, back to top links, and footer */
+.nav {
+    text-align: center;
+}
+
+.top {
+    text-align: right;
+    font-size: 14px;
+}
+
+.footer {
+    text-align: center;
+    font-size: 12px;
+}
+
+/* Headings that sit on top of a box so they look like one piece */
+h3, h4 {
+    text-align: center;
+    color: black;
+    background-color: lightcyan;
+    border: black 5px ridge;
+    border-bottom: none;
+    padding: 10px;
+    margin-bottom: 0;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+/* Use class="plain" on a heading that should NOT be joined to a box */
+h3.plain {
+    background-color: transparent;
+    color: white;
+    border: none;
+    margin-bottom: 15px;
+}
+
+/* Normal box */
+.box {
+    border: black 5px ridge;
+    background-color: lightcyan;
+    color: black;
+    padding: 10px;
+    margin-left: 20%;
+    margin-right: 20%;
+    text-align: center;
+}
+
+/* Paragraph boxes sit right under their heading */
+p.box {
+    border-top-style: none;
+    margin-top: 0;
+}
+
+/* Warning box (red) */
+.box2 {
+    border: red 5px ridge;
+    background-color: lightsalmon;
+    color: black;
+    padding: 10px;
+    margin-left: 20%;
+    margin-right: 20%;
+    text-align: center;
+}
+
+/* Good tip box (green) */
+.box3 {
+    border: green 5px ridge;
+    background-color: lightgreen;
+    color: black;
+    padding: 10px;
+    margin-left: 20%;
+    margin-right: 20%;
+    text-align: center;
+}
